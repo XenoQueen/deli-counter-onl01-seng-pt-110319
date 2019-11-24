@@ -1,6 +1,5 @@
 
 def line(deli)
-  
-  if line == 0
+  if deli.length == 0
     puts "There is nobody in line."
 end
