@@ -20,5 +20,5 @@ end
 def now_serving(deli)
   name = deli[0]
   puts "Currently serving #{name}."
-  deli.delete()
+  deli.shift
 end
