@@ -18,7 +18,6 @@ def take_a_number(deli, name)
 end
 
 def now_serving(deli)
-  name = deli[0]
+  name = deli.shift
   puts "Currently serving #{name}."
-  deli.shift
 end
