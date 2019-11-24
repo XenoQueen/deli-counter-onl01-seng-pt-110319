@@ -8,7 +8,7 @@ def line(deli)
       current_line << " #{place}. #{name}"
       place += 1
     end
-  return current_line
+  puts current_line
   end
 end
 
