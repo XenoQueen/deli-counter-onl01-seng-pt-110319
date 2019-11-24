@@ -1,6 +1,6 @@
 def line(deli)
   if deli.length == 0
-    puts "There is nobody waiting to be served!"
+    puts "The line is currently empty.
   end
 end
 
