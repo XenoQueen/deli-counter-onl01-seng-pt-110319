@@ -2,13 +2,13 @@ def line(deli)
   if deli.length == 0
     puts "The line is currently empty."
   else
-    current_line = "The line is currently:"
+    puts "The line is currently:"
     place = 1
     deli.each do |name|
       current_line << "#{place}. #{name}"
       place += 1
     end
-  puts current_line
+  return current_line
   end
 end
 
