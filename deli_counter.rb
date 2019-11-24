@@ -20,4 +20,6 @@ end
 def now_serving(deli)
   name = deli.shift
   puts "Currently serving #{name}."
+  if deli = 0
+    puts "There is no"
 end
