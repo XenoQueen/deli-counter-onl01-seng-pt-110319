@@ -4,7 +4,7 @@ def line(deli)
   else
     current_line = "The line is currently:"
     deli.each do |name|
-      puts ""
+      
     end
   end
 end
